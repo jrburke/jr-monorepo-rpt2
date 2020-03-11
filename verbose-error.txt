@@ -1,0 +1,147 @@
+rollup v1.32.1
+bundles src/index.ts → dist/jr-player.js...
+rpt2: built-in options overrides: {
+    "noEmitHelpers": false,
+    "importHelpers": true,
+    "noResolve": false,
+    "noEmit": false,
+    "inlineSourceMap": false,
+    "outDir": "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/placeholder",
+    "moduleResolution": 2,
+    "allowNonTsExtensions": true,
+    "declarationDir": "/Users/x/git/jr-monorepo-rpt2/packages/jr-player"
+}
+rpt2: parsed tsconfig: {
+    "options": {
+        "moduleResolution": 2,
+        "module": 5,
+        "lib": [
+            "lib.es2015.d.ts",
+            "lib.es2016.d.ts",
+            "lib.es2017.d.ts",
+            "lib.dom.d.ts"
+        ],
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "target": 1,
+        "declarationDir": "/Users/x/git/jr-monorepo-rpt2/packages/jr-player",
+        "outDir": "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/placeholder",
+        "configFilePath": "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/tsconfig.json",
+        "noEmitHelpers": false,
+        "importHelpers": true,
+        "noResolve": false,
+        "noEmit": false,
+        "inlineSourceMap": false,
+        "allowNonTsExtensions": true
+    },
+    "fileNames": [
+        "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/dist/index.d.ts",
+        "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/dist/jr-auth/src/index.d.ts",
+        "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/dist/jr-lib/src/index.d.ts",
+        "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/dist/jr-lib/src/util.d.ts",
+        "/Users/x/git/jr-monorepo-rpt2/packages/jr-player/src/index.ts"
+    ],
+    "typeAcquisition": {
+        "enable": false,
+        "include": [],
+        "exclude": []
+    },
+    "raw": {
+        "extends": "../../tsconfig.json",
+        "compilerOptions": {
+            "target": "es5",
+            "declarationDir": "lib",
+            "outDir": "lib"
+        },
+        "include": [
+            "."
+        ],
+        "compileOnSave": false
+    },
+    "errors": [],
+    "wildcardDirectories": {
+        "/Users/x/git/jr-monorepo-rpt2/packages/jr-player": 1
+    },
+    "compileOnSave": false,
+    "configFileSpecs": {
+        "includeSpecs": [
+            "."
+        ],
+        "excludeSpecs": [
+            "lib",
+            "lib"
+        ],
+        "validatedIncludeSpecs": [
+            "."
+        ],
+        "validatedExcludeSpecs": [
+            "lib",
+            "lib"
+        ],
+        "wildcardDirectories": {
+            "/Users/x/git/jr-monorepo-rpt2/packages/jr-player": 1
+        }
+    }
+}
+rpt2: included:
+[
+    "src/**/*.ts+(|x)",
+    "../jr-lib/**/*.ts+(|x)",
+    "../jr-auth/**/*.ts+(|x)"
+]
+rpt2: excluded:
+[
+    "*.d.ts",
+    "**/*.d.ts"
+]
+rpt2: transpiling '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/index.ts'
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/code/cache/57dbfbf748206c491b28d08e310abf7ee34ee9cb'
+rpt2:     cache miss
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/syntacticDiagnostics/cache/57dbfbf748206c491b28d08e310abf7ee34ee9cb'
+rpt2:     cache miss
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/semanticDiagnostics/cache/57dbfbf748206c491b28d08e310abf7ee34ee9cb'
+rpt2:     cache miss
+rpt2:     watching: /Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/util.ts
+rpt2: generated declarations for '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/index.ts'
+rpt2: dependency '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/util.ts'
+rpt2:     imported by '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/index.ts'
+rpt2: resolving './util' imported by '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/index.ts'
+rpt2:     to '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/util.ts'
+rpt2: transpiling '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/util.ts'
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/code/cache/7077e4ab2a90cf739ea45859820d77e49e395cee'
+rpt2:     cache miss
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/syntacticDiagnostics/cache/7077e4ab2a90cf739ea45859820d77e49e395cee'
+rpt2:     cache miss
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/semanticDiagnostics/cache/7077e4ab2a90cf739ea45859820d77e49e395cee'
+rpt2:     cache miss
+rpt2:     watching: 
+rpt2: generated declarations for '/Users/x/git/jr-monorepo-rpt2/packages/jr-lib/src/util.ts'
+rpt2: generating target 1
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/syntacticDiagnostics/cache/18598ecb6707c142ef993d979b1fe38b7887db68'
+rpt2:     cache miss
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/semanticDiagnostics/cache/18598ecb6707c142ef993d979b1fe38b7887db68'
+rpt2:     cache miss
+rpt2:     cache: '/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/.cache/rollup-plugin-typescript2/rpt2_f23be7f2d150e6320fe49ea4108bdbbfcfa3356f/syntacticDiagnostics/cache/1de5e0af25a44459e08131f5f4f7b2419c2ee8b8'
+rpt2:     cache miss
+[!] (plugin rpt2) Error: Could not find source file: '/Users/x/git/jr-monorepo-rpt2/packages/jr-auth/src/index.ts'.
+Error: Could not find source file: '/Users/x/git/jr-monorepo-rpt2/packages/jr-auth/src/index.ts'.
+    at getValidSourceFile (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/typescript/lib/typescript.js:135637:29)
+    at Object.getSyntacticDiagnostics (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/typescript/lib/typescript.js:135851:52)
+    at cache.getSyntacticDiagnostics (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:29089:40)
+    at TsCache.getDiagnostics (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:24916:55)
+    at TsCache.getSyntacticDiagnostics (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:24876:21)
+    at cache.walkTree (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:29088:59)
+    at lodash_3 (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:24837:71)
+    at arrayEach (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:534:11)
+    at forEach (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:9360:14)
+    at TsCache.walkTree (/Users/x/git/jr-monorepo-rpt2/packages/jr-player/node_modules/rollup-plugin-typescript2/dist/rollup-plugin-typescript2.cjs.js:24837:13)

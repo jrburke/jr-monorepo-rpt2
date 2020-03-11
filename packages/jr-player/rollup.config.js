@@ -15,7 +15,8 @@ export default {
   },
   plugins: [
     typescript({
-      include: ['src/**/*.ts+(|x)', '../jr-lib/**/*.ts+(|x)', '../jr-auth/**/*.ts+(|x)']
+      include: ['src/**/*.ts+(|x)', '../jr-lib/**/*.ts+(|x)', '../jr-auth/**/*.ts+(|x)'],
+      verbosity: 3
     }),
     resolve(),
     commonjs()
