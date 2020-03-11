@@ -1,0 +1,19 @@
+{
+  "name": "@demo/jr-lib",
+  "version": "1.2010.12",
+  "description": "",
+  "main": "dist/jr-lib.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.30.1",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.3"
+  }
+}

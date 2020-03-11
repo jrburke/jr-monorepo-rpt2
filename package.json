@@ -1,0 +1,20 @@
+{
+  "name": "jr-monorepo-rpt2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean && lerna clean --yes",
+    "setup": "npm run clean && lerna bootstrap --ci",
+    "test": "echo \"Pretend tests are OK\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^3.20.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
