@@ -4,6 +4,8 @@ A Lerna-based monorepo to test rollup-plugin-typescript2 in watch mode.
 
 ## Setup
 
+These steps were run using node v10.19.0 and npm 6.13.4.
+
 ```
 (clone this repo)
 npm ci && npm run setup
