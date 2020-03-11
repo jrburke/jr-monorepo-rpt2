@@ -8,7 +8,7 @@ These steps were run using node v10.19.0 and npm 6.13.4.
 
 ```
 (clone this repo)
-npm ci && npm run setup
+npm install && npm run setup
 cd packages/jr-player
 npm run start
 ```
